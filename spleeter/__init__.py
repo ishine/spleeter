@@ -13,6 +13,12 @@
     by providing train, evaluation and source separation action.
 """
 
-__email__ = 'research@deezer.com'
-__author__ = 'Deezer Research'
-__license__ = 'MIT License'
+__email__ = "spleeter@deezer.com"
+__author__ = "Deezer Research"
+__license__ = "MIT License"
+
+
+class SpleeterError(Exception):
+    """ Custom exception for Spleeter related error. """
+
+    pass
